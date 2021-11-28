@@ -1,0 +1,88 @@
+
+.a {
+    background: rgb(57, 57, 122);
+    color: red;
+  }
+  
+  /* h1 class="b"の場合 */
+  /* classは先頭にドット[.]がつきます */
+  .b {
+    background: pink;
+    text-align: center;
+    color: white;
+  }
+p{
+
+}
+img{
+    width: 250px;
+
+    height: 250px;
+
+    /* 丸みをつける bdrs 入力後tabキー */
+    border-radius: 50%;
+
+    /* 線を引く bd tabキー */
+    border: 10px solid pink;
+
+    /* 影をつける  */
+    box-shadow: 10px 10px 10px grey;
+}
+
+.title{
+    background: pink;
+    color: white;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    color: rgb(212, 24, 81);
+}
+.pic{
+    text-align: center;
+}
+.hobby{
+    text-align: center;
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+}
+ul{
+    text-align: center;
+    width:300px;
+    margin:auto;
+    color: #668ad8;/*文字色*/
+    border: dashed 2px #668ad8;/*破線 太さ 色*/
+    background: #f1f8ff; /*背景色*/
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+  
+  li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+  }
+
+  .crescent-moon-1 {
+    position: relative;
+    width: 100px; /* 直径 */
+    height: 100px; /* 直径 */
+  }
+  
+  .crescent-moon-1::after {
+    content: "";
+    position: absolute;
+    width: 100px; /* 直径 */
+    height: 100px; /* 直径 */
+    border-radius: 50%; /* 角を丸めて円にする */
+    box-shadow: -26px 0px 0px 20px #ffd700; /* 最初の値である程度、形状を調節可能 */
+    transform: rotate(-24deg); /* 角度調整 */
+  }
+
+  .crescent-moon-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: -26px 0px 0px 20px #ffd700;
+    transform: rotate(-24deg);
+  }
